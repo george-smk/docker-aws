@@ -1,8 +1,9 @@
 version: 0.2
 
 phases:
-    commands:
-      - echo "installing..."
+    install:
+        commands:
+          - echo "installing..."
   build:
     commands:
       - echo "Build docker"
